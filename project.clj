@@ -5,7 +5,8 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [seesaw "1.4.5"]
-                 [net.mikera/imagez "0.10.0"]]
+                 [cc.artifice/clj-ml "0.8.5"]
+                 [net.mikera/imagez "0.11.0"]]
   :main ^:skip-aot nndigit.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
